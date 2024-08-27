@@ -1,0 +1,134 @@
+{%extends 'index.html'%}
+
+
+{%load static%}
+{%block content%}
+
+
+
+<section id="our-team">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">
+                Biziň ugurlarymyz
+            </h2>
+            <p class="wow fadeInDown">Ýaş alymlar geňeşiniň agzalarynyň alyp barýan taslamalarynyň ugurlary.</p>
+        </div>
+
+
+        <div class="row text-center">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                    <div class="team-img">
+                        <img class="img-responsive" src="{%static 'assets/images/yas.png'%}" alt="">
+                    </div>
+                    <div class="team-info">
+                        <h3>Programmirleme</h3>
+                        <span>
+                            Programmirleme bölüminde talyplar java, php, laravel, android studio, C# dillerini
+                            özleşdirýärler. Ýaş alymlar öz başarnyklaryny kompýuter kodlaryna geçirýärler.</span>
+                    </div>
+                    <!-- <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul> -->
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                    <div class="team-img">
+                        <img class="img-responsive" src="{%static 'assets/images/yas1.png'%}" alt="">
+                    </div>
+                    <div class="team-info">
+                        <h3>Web-programmirleme</h3>
+                        <span>
+                            Ýaş alymlar web-programmirlemede Html, Css, Javascript, NodeJs, Laravel dilleri bilen
+                            web-programmirleme derejelerini <br> ýokarlandyrýarlar.</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                    <div class="team-img">
+                        <img class="img-responsive" src="{%static 'assets/images/yas2.png'%}">
+                    </div>
+                    <div class="team-info">
+                        <h3>Dizaýn</h3>
+                        <span>Dizaýn
+                            Dizaýn bölüminde Adobe programmalary bilen işlenilýär. Talyplaryň nazaryýetde alan bilimleri
+                            önümçilik tejribeliginde <br> ornaşdyrylýar.</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                    <div class="team-img">
+                        <img class="img-responsive" src="{%static 'assets/images/yas3.png'%}">
+                    </div>
+                    <div class="team-info">
+                        <h3>Elektronika</h3>
+                        <span>Elektronika
+                            Ýaş alymlarda robot tehnika bölümimiz hem hereket edýär. Ýaş nesliň döredijiligi
+                            institutymyzda robot tehnikasynda ösen derejelerini hem görkezer.</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="yast">
+    <br>
+    <div class="container">
+
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Täzelikler</h2>
+            <p class="wow fadeInDown">------------------------------------------------------------------</p>
+
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-5 wow fadeInLeft">
+                <img class="img-responsive" src="{%static 'assets/images/yass.jpg'%}" alt="">
+            </div>
+            <div class="col-sm-6 wow fadeInRight">
+                <h3 class="column-title">Ylmy döredijilik üçin innowasion meýdança</h3>
+                <p>Birnäçe wagt mundan öň gazetimizde Prezident Gurbanguly Berdimuhamedowyň Aşgabatda ilkinji içerki IT meýdançanyň döredilmegi bilen baglanyşykly ýene-de bir işjeň başlangyçlarynyň üstünlikli durmuşa geçirilendi...</p>
+
+                <a class="btn btn-primary" style="font: 100;" href="{%url 't1URL'%}">Doly oka -></a>
+            </div>
+
+
+            <div class="col-sm-6 wow fadeInRight">
+                <h3 class="column-title">«BIZNES REKLAMA» ga­ze­ti in­di elekt­ron gör­nüş­de</h3>
+                <p>Köpimiz, megerem, «Biznes reklama» gazetiniň web-saýtynyň işläp başlanyndan habarly hem däldiris. Institutyň maglumat tehnologiýalary we awtomatlaşdyrma fakultetiniň 1-nji ýyl talyby Akgözel Gurbangulyýewa bu t...</p>
+                <a class="btn btn-primary" style="font: 100;" href="{%url 't2URL'%}">Doly oka -></a>
+
+            </div>
+            <div class="col-sm-6 wow fadeInRight">
+                <h3 class="column-title">EduBox - Sanly Bilim Tory</h3>
+                <p>Taslama esasan iki bölümden, ýagny Sanly Bilim Ulgamyndan we Bilim Portalyndan ybaratdyr. Sanly Bilim Ulgamy her mekdebe aýratyn gurnalyp, okuwyň gidişini dolandyrmak, ýagny okuwçynyň gündeligi, mugallymyň žurn...</p>
+                <a class="btn btn-primary" style="font: 100;" href="{%url 't3URL'%}">Doly oka -></a>
+
+            </div>
+
+
+            <br>
+        </div>
+    </div><br>
+</section>
+
+
+
+
+
+{%endblock%}

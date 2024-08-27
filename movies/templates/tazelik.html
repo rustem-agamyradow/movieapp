@@ -1,0 +1,33 @@
+{%extends 'index.html'%}
+
+
+{%load static%}
+{%block content%}
+
+{% for i in tazelikView %}
+<section id="about">
+
+    <div class="container">
+        
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown"><br>{{i.name}}
+
+
+            </h2>
+            <p class="wow fadeInDown">------------------------------------------------------------------</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 wow fadeInRight">
+                <h3 class="column-title">Maglumatlar</h3>
+                <br>{{i.body}}
+                {{i.image}}
+                <p></p>
+
+            </div>
+        </div>
+       
+    </div>
+</section>
+
+{% endfor %}
+{%endblock%}

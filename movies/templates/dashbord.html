@@ -1,0 +1,208 @@
+{%extends 'index.html'%}
+
+
+{%load static%}
+{%block content%}
+
+
+
+<section id="hero-banner">
+    <div class="banner-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <h2><b>Hoş geldiňiz</b> <br>Türkmenistanyň Telekommunikasiýalar <br> we Informatika Instituty</h2>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/#main-slider-->
+
+<section id="pricing">
+    <div class="container">
+        <!-- <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Pricing</h2>
+            <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus
+                vitae massa <br> semper aliquam quis mattis quam.</p>
+        </div> -->
+
+        <div class="row">
+            <div class="col-md-2 col-sm-6 col-xs-12">
+
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
+                    <ul class="pricing featured">
+                        <li class="plan-header">
+                            <span class="glyphicon glyphicon-globe" style="font-size:190px;color:#fcfcfc"></span>
+                        </li>
+                        <li><strong>Ýaş alymlar geňeşi</strong></li>
+
+                        <li>Institutymyzyň içindäki Ýaş alymlar gurnagynyň ylmy işleri, innowasion täzeçillikleri barada
+                            ...</li>
+                        <li class="plan-purchase"><a class="btn btn-primary" href="{%url 'yasURL'%}">Giňişleýin</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-12">
+
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
+                    <ul class="pricing">
+                        <li class="plan-header">
+                            <span class="glyphicon glyphicon-screenshot" style="font-size: 190px;"></span>
+                        </li>
+                        <li><strong>Täzelikler</strong></li>
+                        <li>Ýurdumyzda hem-de dünýäde bolup geçýän täzeliklerden, täze tehnologiýalardan ...</li>
+                        <li class="plan-purchase"><a class="btn btn-primary" href="#">Giňişleýin</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+           
+
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Bilim ulgamymyz indiki nesle ylham berýär.</h2>
+            <p class="wow fadeInDown">------------------------------------------------------------------</p>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 wow fadeInLeft">
+                <img class="img-responsive" src="{%static 'assets/images/aa.jpg'%}" alt="">
+            </div>
+
+            <div class="col-sm-6 wow fadeInRight">
+                <h3 class="column-title">Maglumatlar</h3>
+                <p>2019-njy ýylyň 12-nji iýunynda Hormatly Prezidentimiz “Türkmenistanyň
+                    Telekommunikasiýalar we informatika institutyny döretmek hakyndaky” Permana
+                    gol çekdi. Täze IT ýokary okuw mekdebi ýurdumyzyň ykdysadyýetiniň dürli pudaklaryny
+                    sanlylaşdyrmak üçin programmalary işläp taýýarlaýan we sanly enjamlar bilen üpjün&c...</p>
+                <a class="btn btn-primary" style="font: 100;" href="#">Giňişleýin</a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--/#services-->
+
+
+<!--/#about-->
+
+<section id="our-team">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">
+                Soňky täzelikler
+            </h2>
+            <p class="wow fadeInDown">------------------------------------------------------------------</p>
+        </div>
+
+
+        <div class="row text-center">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                    <div class="team-img">
+                        <img class="img-responsive" src="{%static 'assets/images/team/1.jpg'%}" alt="">
+                    </div>
+                    <div class="team-info">
+                        <h3>Zehinliler öňe saýlandy</h3>
+                        <span>Türkmenistanyň Telekommunikasiýalar we informatika institutynyň guramagynda «Sanly çözgüt
+                            — IT meýdança»...</span>
+                    </div>
+                    <!-- <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul> -->
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                    <div cla ss="team-img">
+                        <img class="img-responsive" src="{%static 'assets/images/team/2.jpg'%}" alt="">
+                    </div>
+                    <div class="team-info">
+                        <h3>HYZMATDAŞLYGYŇ MÖHÜM PUDAGY</h3>
+                        <span>Ýurdumyzda ulag-kommunikasiýa ulgamy hyzmatdaşlygyň geljegi uly ugry hasaplanýar.
+                            Garaşsyz, hemişelik Bitarap Watanymyz...</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                    <div class="team-img">
+                        <img class="img-responsive" src="{%static 'assets/images/team/1.jpeg'%}" alt="">
+                    </div>
+                    <div class="team-info">
+                        <h3>Sanly Çözgüt IT meýdança</h3>
+                        <span>Sanly Çözgüt IT meýdança...</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section><!--/#our-team-->
+
+
+<!-- /#portfolio -->
+<!--/#pricing-->
+
+
+
+<section id="business-stats">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Maglumat:</h2>
+            <p class="wow fadeInDown">------------------------------------------------------------------</p>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                    <div class="business-stats" data-digit="7" data-duration="1000"></div>
+                    <strong>Fakultet</strong>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                    <div class="business-stats" data-digit="21" data-duration="1000"></div>
+                    <strong>Hünär</strong>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
+                    <div class="business-stats" data-digit="209" data-duration="1000"></div>
+                    <strong>Mugallym</strong>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="600ms">
+                    <div class="business-stats" data-digit="5399" data-duration="1000"></div>
+                    <strong>Talyp</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{%endblock%}

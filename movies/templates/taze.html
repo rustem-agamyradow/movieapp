@@ -1,0 +1,53 @@
+{%extends 'index.html'%}
+
+
+{%load static%}
+{%block content%}
+
+
+
+<section id="our-team">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">
+                Täzelikler
+            </h2>
+            <p class="wow fadeInDown">------------------------------------------------------------------</p>
+        </div>
+
+
+
+
+        <div class="row text-center">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                    <div class="team-img">
+                        <img class="img-responsive" src="{%static 'assets/images/team/1.jpg'%}" alt="">
+                    </div>
+                    <div class="team-info">
+                        <h3>Zehinliler öňe saýlandy</h3>
+                        <span>Türkmenistanyň Telekommunikasiýalar we informatika institutynyň guramagynda «Sanly çözgüt
+                            — IT meýdança»...</span>
+                        <a class="btn btn-primary" style="font: 100;" href="{%url 'tazelikURL'%}">Doly oka -></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</section>
+
+{%endblock%}
+
+
+
+
+<!-- <ul class="social-icons">
+    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+</ul> -->
